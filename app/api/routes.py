@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify, render_template
-from networkx import cartesian_product
 from helpers import token_required
 from models import CarSchema, db, User, Car, car_schema, cars_schema
 
